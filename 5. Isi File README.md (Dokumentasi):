@@ -9,3 +9,9 @@ Program ini menghubungi API `uselessfacts.jsph.pl` untuk menarik fakta acak dari
 1. Clone repo ini:
    ```bash
    git clone https://github.com/your-username/random-facts-generator.git
+
+Instal dependencies:
+ -  pip install -r requirements.txt
+
+Jalankan aplikasi: 
+ - python main.py
