@@ -1,0 +1,11 @@
+# Random Facts Generator
+
+A simple Python-based random facts generator pulling from different APIs and datasets.
+
+## Deskripsi
+Program ini menghubungi API `uselessfacts.jsph.pl` untuk menarik fakta acak dari berbagai kategori. Bisa digunakan untuk hiburan atau edukasi.
+
+## Cara Instalasi
+1. Clone repo ini:
+   ```bash
+   git clone https://github.com/your-username/random-facts-generator.git
