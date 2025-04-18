@@ -1,0 +1,15 @@
+import requests
+
+# Fungsi untuk mendapatkan fakta acak dari API
+def get_random_fact():
+    try:
+        response = requests.get("https://uselessfacts.jsph.pl/random.json?language=en")
+        response.raise_for_status()  # Cek jika ada error dalam request
+        data = response.json()
+        return data['text']
+    except requests.exceptions.RequestException as e:
+        return f"Error: {e}"
+
+if __name__ == "__main__":
+    print("Here's a random fact for you:")
+    print(get_random_fact())
